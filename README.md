@@ -16,18 +16,26 @@ Features a premium centered dashboard, live responsive resizing, sound alerts, m
 
 ---
 
-## Installation
+## Installation & Running
+
+This package is published to **GitHub Packages** (`npm.pkg.github.com`) under the scope `@dorukdogular`.
+
+### Prerequisites for GitHub Packages Installation
+To install or run scoped packages from the GitHub Packages registry, you must add the registry mapping to your global or project `.npmrc` configuration:
+```bash
+echo "@dorukdogular:registry=https://npm.pkg.github.com" >> ~/.npmrc
+```
 
 ### 1. Run directly with npx
 You can execute it instantly without any manual installation:
 ```bash
-npx ascii-focus-timer
+npx @dorukdogular/ascii-focus-timer
 ```
 
 ### 2. Global Installation
 To install the tool globally on your system:
 ```bash
-npm install -g ascii-focus-timer
+npm install -g @dorukdogular/ascii-focus-timer
 ```
 Once installed, run it using the command:
 ```bash
@@ -63,16 +71,14 @@ ascii-focus-timer
 
 ---
 
-## Publishing to npm
+## Automated Publishing
 
-If you wish to publish this package under your npm account so others can install it:
+This repository is set up with **GitHub Actions**. Every time you publish a new Release on GitHub, the workflow automatically builds, tests, and publishes the package to the GitHub Packages registry.
 
-1. **Check package name**: Open `package.json` and verify the `"name"` field. (If the name `ascii-focus-timer` is already taken on the registry, change it to a unique name, e.g., `"asciifocustimer"`).
-2. **Log into npm**: Run `npm login` in your terminal and enter your credentials.
-3. **Publish**: Run the command:
-   ```bash
-   npm publish --access public
-   ```
+To publish a new version:
+1. Update the `"version"` field in `package.json` (e.g. `"1.1.0"`).
+2. Commit and push the changes.
+3. Draft and publish a new Release on GitHub matching that tag (e.g. `v1.1.0`).
 
 ---
 
