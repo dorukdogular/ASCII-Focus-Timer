@@ -1,5 +1,5 @@
 {
-  "name": "ascii-focus-timer",
+  "name": "@dorukdogular/ascii-focus-timer",
   "version": "1.0.0",
   "description": "A beautiful ASCII Focus Timer (Pomodoro) for the terminal.",
   "main": "index.js",
@@ -8,6 +8,13 @@
     "ascii-focus-timer": "./index.js"
   },
   "preferGlobal": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorukdogular/ascii-focus-timer.git"
+  },
   "scripts": {
     "start": "node index.js"
   },
