@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dorukdogular/ascii-focus-timer.git"
+    "url": "git+https://github.com/dorukdogular/ASCII-Focus-Timer.git"
   },
   "scripts": {
     "start": "node index.js"
