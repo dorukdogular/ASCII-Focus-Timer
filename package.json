@@ -1,6 +1,6 @@
 {
   "name": "@dorukdogular/ascii-focus-timer",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "A beautiful ASCII Focus Timer (Pomodoro) for the terminal.",
   "main": "index.js",
   "type": "module",
