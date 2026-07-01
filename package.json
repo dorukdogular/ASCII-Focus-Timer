@@ -1,0 +1,16 @@
+{
+  "name": "ascii-focus-timer",
+  "version": "1.0.0",
+  "description": "A beautiful ASCII Focus Timer (Pomodoro) for the terminal.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ascii-focus-timer": "./index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Doruk Doğular",
+  "license": "MIT"
+}
