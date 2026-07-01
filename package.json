@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "ascii-focus-timer": "./index.js"
+    "ascii-focus-timer": "index.js"
   },
   "preferGlobal": true,
   "publishConfig": {
