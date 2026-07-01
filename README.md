@@ -18,13 +18,7 @@ Features a premium centered dashboard, live responsive resizing, sound alerts, m
 
 ## Installation & Running
 
-This package is published to **GitHub Packages** (`npm.pkg.github.com`) under the scope `@dorukdogular`.
-
-### Prerequisites for GitHub Packages Installation
-To install or run scoped packages from the GitHub Packages registry, you must add the registry mapping to your global or project `.npmrc` configuration:
-```bash
-echo "@dorukdogular:registry=https://npm.pkg.github.com" >> ~/.npmrc
-```
+This package is published to the public **npm registry**.
 
 ### 1. Run directly with npx
 You can execute it instantly without any manual installation:
@@ -73,7 +67,7 @@ ascii-focus-timer
 
 ## Automated Publishing
 
-This repository is set up with **GitHub Actions**. Every time you publish a new Release on GitHub, the workflow automatically builds, tests, and publishes the package to the GitHub Packages registry.
+This repository is set up with **GitHub Actions**. Every time you publish a new Release on GitHub, the workflow automatically builds, tests, and publishes the package to the public **npm registry**.
 
 To publish a new version:
 1. Update the `"version"` field in `package.json` (e.g. `"1.1.0"`).
